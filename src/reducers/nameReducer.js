@@ -8,7 +8,7 @@ function nameReducer(state = { name: "", nameWithFlex: "s" }, action) {
     case "UPDATE_NAME_WITH_FLEX":
       return {
         ...state,
-        name: action.payload
+        nameWithFlex: action.payload
       };
     default:
       return state;
