@@ -1,4 +1,4 @@
-function nameReducer(state = { name: "", nameWithFlex: "s" }, action) {
+function nameReducer(state = { name: "", nameWithFlex: "" }, action) {
   switch (action.type) {
     case "UPDATE_NAME":
       return {
